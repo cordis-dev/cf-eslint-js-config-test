@@ -1,6 +1,6 @@
 module.exports = {
   extends: ['stylelint-config-recommended', 'stylelint-prettier/recommended'],
-  plugins: ['stylelint-order', 'stylelint-value-no-unknown-custom-properties'],
+  plugins: ['stylelint-order'],
   rules: {
     'at-rule-no-vendor-prefix': true,
     'color-hex-length': 'short',
